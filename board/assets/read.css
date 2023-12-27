@@ -1,0 +1,284 @@
+body {
+    font-size: small;
+}
+
+#write {
+    padding: 10px 20px 18px 20px;
+    border-bottom: 1.5px solid #e6e6e6;
+    font-size: small;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+#subtitle {
+    font-weight: lighter;
+    font-size: smaller;
+    color: rgb(141, 141, 141);
+}
+
+#description {
+    padding: 20px 1px 0px 1px;
+}
+
+.ad {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 7vw 0px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.write-tools {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    display: flex;
+    font-weight: 100;
+}
+
+.write-tools i {
+    font-size: 13px;
+}
+
+.li {
+    margin-left: 10px;
+}
+
+.tools-left {
+    position: relative;
+    width: 50%;
+    text-align: left;
+}
+
+.tools-right {
+    position: relative;
+    width: 50%;
+    text-align: right;
+}
+
+.tools-right i {
+    font-size: large;
+    font-size: 13px;
+    color: #8d8d8d
+}
+
+.tools-right>a+a {
+    margin-left: 10px;
+}
+
+#comments {
+    padding: 0px 21px;
+}
+
+.comment {
+    padding: 13px 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: #fafafa;
+    font-size: small;
+}
+
+.comment-header {
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(141, 141, 141);
+}
+
+.comment-header .name {
+    color: black;
+}
+
+.comment-description {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.comment-tools {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    display: flex;
+}
+
+.comment-tools i {
+    font-size: 13px;
+}
+
+.reply {
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 0px auto 10px auto;
+    width: 100%;
+    background-color: rgb(245, 245, 253);
+    font-size: small;
+}
+
+.reply-header {
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(141, 141, 141);
+}
+
+.reply-header .name {
+    color: black;
+}
+
+.reply-description {
+    margin-top: 10px;
+}
+
+.reply-tools {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    display: flex;
+}
+
+.reply-tools i {
+    font-size: 13px;
+}
+
+.writer {
+    background-color: red;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: small;
+}
+
+.reply-line {
+    width: 0px;
+    border-right: 2px solid #707070;
+    height: auto;
+    border-radius: 100px;
+    margin: 0px 20px 10px 30px;
+}
+
+.reply_form {
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+    padding: 4px 0px;
+}
+
+.form-control-lg {
+    border-radius: 50px !important;
+}
+
+.btn-primary {
+    border-radius: 50px !important;
+}
+
+.btn-secondary {
+    border-radius: 50px !important;
+}
+
+.btn-danger {
+    border-radius: 50px !important;
+}
+
+.menu_top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 10%);
+
+}
+
+.board_btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fafafa;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#read_first_container {
+    margin-top: 78px;
+    padding: 0px;
+}
+
+.reply_input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.reply_btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background-color: #5539FB;
+    position: relative;
+}
+
+#up_arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reply_input:focus {
+    border: none;
+    outline: none;
+}
+
+#read_fixed_right {
+    width: 45px;
+    text-align: center;
+}
+
+#read_fixed_left {
+    width: 45px;
+    text-align: center;
+}
+
+#btn {
+    vertical-align: middle;
+    width: 44px;
+    height: 44px;
+    margin: auto 15px auto 0px;
+}
+
+#description>a {
+    color: #5539FB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#kakao_ad {
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@media screen and (min-width: 992px) {
+    #comments {
+        padding: 0;
+        display: flex;
+        width: 85%;
+        margin: 0px auto;
+    }
+    #kakao_ad {
+        display: block;
+        margin-top: 20px;
+    }
+    #user_comment {
+        width: 95%;
+    }
+    #write {
+        padding: 10px 60px 18px 60px;
+    }
+}

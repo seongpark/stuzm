@@ -1,0 +1,112 @@
+#nav {
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+    color: rgb(141, 141, 141);
+}
+
+.nav-item {
+    width: 100%;
+    position: relative;
+}
+
+#nav-left {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#nav-right {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.highschool {
+    width: 100%;
+}
+
+.highschool>label {
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #5539FB;
+    color: white;
+}
+
+#hi-sel:checked+label {
+    border-bottom: none;
+}
+
+.hi-label {
+    display: block;
+    width: 100%;
+    color: rgb(59, 59, 59);
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#hi-sel {
+    display: none;
+}
+
+#hi-sel+label+div {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#hi-sel:checked+label+div {
+    max-height: 1000px;
+}
+
+input[id*="highnum"] {
+    display: none;
+}
+
+input[id*="highnum"]:checked+label {
+    background-color: #5539FB;
+    color: white;
+}
+
+#title>input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 13px 15px;
+    font-size: large;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+#title>input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 15px;
+}
+
+.gray-line {
+    background-color: #f2f2f2;
+    height: 10px;
+    width: 100%;
+}
+#write_submit {
+    background: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    color: rgb(141, 141, 141);
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+}

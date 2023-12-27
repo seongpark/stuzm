@@ -1,0 +1,180 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif' !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.write {
+    padding: 10px 0px;
+    border-bottom: 1.5px solid #e6e6e6;
+    font-size: small;
+}
+
+.school-name {
+    color: #8A8A8A;
+}
+
+.write-title {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 0px;
+}
+
+.write-discription {
+    font-size: 12px;
+    color: #8A8A8A;
+}
+
+.write-tools {
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+    display: flex;
+}
+
+.write-tools i {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.li {
+    margin-left: 10px;
+}
+
+.tools-left {
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+    width: 50%;
+    text-align: left;
+}
+.text_type {
+    background-color: #F5F6FA;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+.like-btn {
+    vertical-align: middle;
+    margin: auto 0px;
+}
+.tools-right {
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+    width: 50%;
+    text-align: right;
+}
+.tools-right > div {
+    vertical-align: middle;
+    margin: auto 0px;
+}
+.mr-3 {
+    margin-right: 3px;
+}
+
+.board-top {
+    background-color: #fafafa;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list_board {
+    padding: 6px 13px;
+    background-color: #F5F6FA;
+    display: inline-block;
+    border-radius: 5px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.list_board_select {
+    padding: 6px 13px;
+    background-color: #5539FB;
+    border: 0;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.scroll-list::-webkit-scrollbar {
+    display: none;
+}
+.max_width_appear {
+    display: none;
+}
+
+@media screen and (min-width: 1400px) {
+    .scroll-list {
+        position: fixed;
+        top: 100px;
+        right: 40px;
+        display: flex;
+    }
+    .list_board_s {
+        display: block;
+        margin-bottom: 20px;
+        width: 120px;
+        padding: 6px 0px;
+        text-align: center;
+    }
+    .list_board_s:hover {
+        transition: all 0.1s;
+        background-color: #5539FB;
+        color: white;
+    }
+    .list_board {
+        border-radius: 15px;
+    }
+    .list_board_select {
+        border-radius: 15px;
+    }
+    .max_width_appear {
+        display: block;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .scroll-list {
+        position: fixed;
+        top: 100px;
+        right: 40px;
+        width: 110px;
+    }
+    .list_board_s {
+        display: block;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    .list_board_s:hover {
+        transition: all 0.1s;
+        background-color: #5539FB;
+        color: white;
+    }
+}
+#page_move {
+    margin: 40px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.page_move_btn {
+    padding: 7px 10px;
+    border: 1px solid #E1E1E1;
+    border-radius: 9px;
+}
+#page_num {
+    font-size: 15px;
+    vertical-align: middle;
+    margin: auto 0px;
+}
+#page_num > a:not(:first-of-type) {
+    margin-left: 7px;
+}
+.page_empty {
+    width: 62.99px;
+}

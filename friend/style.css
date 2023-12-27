@@ -1,0 +1,244 @@
+body {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#memo {
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    /* 인터넷 익스플로러 */
+    scrollbar-width: none;
+    /* 파이어폭스 */
+}
+
+#memo::-webkit-scrollbar {
+    display: none;
+}
+
+.profile_memo {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    width: 60px;
+    margin-right: 26px;
+    display: inline-block;
+}
+
+.profile_shook {
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    margin-bottom: 7px;
+    background-image: url('https://www.gravatar.com/avatar/04b8%E3%85%87?d=mm');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.5px gray;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile_content {
+    background-color: #fff !important;
+    color: #000 !important;
+    text-align: center;
+    padding: 5px;
+    max-width: 100px;
+    min-width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 101;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.profile_shook_new {
+    width: 60px;
+    height: 60px;
+    background-image: url("shook/load.png");
+    border-radius: 50px;
+    margin-bottom: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.5px gray;
+}
+
+.post_description {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    bottom: 1%;
+    position: absolute;
+}
+
+.content {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.memo_label {
+    display: block;
+}
+
+input[id*=memo] {
+    display: none;
+}
+
+input[id*=memo]+label+div {
+    display: none;
+    transition: all 0.3s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+    display: black;
+}
+
+input[id*=memo]+label+div>div {
+    background-color: white;
+    padding: 20px 45px 20px 45px;
+    border-radius: 10px;
+}
+
+input[id*=memo]+label+div>div>.profile_open_header>div {
+    vertical-align: middle;
+    margin: auto 0px;
+}
+
+input[id*=memo]+label+div>div>.profile_open_header>div+div {
+    margin-left: 15px;
+}
+
+input[id*=memo]+label+div>div>.profile_open_header+div {
+    text-align: center;
+    padding: 15px 3px 5px 3px;
+    margin: 0px auto;
+}
+
+input[id*=memo]+label+div>div>div {
+    display: flex;
+    vertical-align: middle;
+    margin: auto 10px auto 0px;
+}
+
+input[id*=memo]:checked+label+div {
+    display: block;
+    opacity: 1;
+}
+
+input[id*=memo]+label+div+div {
+    display: none;
+}
+
+input[id*=memo]:checked+label+div+div {
+    display: block;
+    position: fixed;
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    top: 0;
+    left: 0;
+}
+
+input[id*=memo]:checked+label+div+div>label {
+    width: 100%;
+    height: 100%;
+}
+
+.profile_close {
+    position: absolute;
+    top: 7;
+    right: 7;
+}
+
+.profile_close_icon {
+    -webkit-text-stroke: 1px #fff;
+}
+.max_width_appear {
+    display: none;
+}
+@media screen and (min-width: 1400px) {
+    #fixed_right {
+        position: fixed;
+        top: 100px;
+        right: 40px;
+        display: flex;
+    }
+    .scroll-list {
+        overflow:scroll;
+        white-space:nowrap;
+        display: flex;
+    }
+    #memo {
+        width: 100%;
+        overflow:visible;
+        white-space:nowrap;
+        height: 510px;
+        -ms-overflow-style: none;
+        /* 인터넷 익스플로러 */
+        scrollbar-width: none;
+        margin: 0px auto;
+        /* 파이어폭스 */
+    }
+
+    .profile_memo {
+        height: 100px;
+        text-align: center;
+        width: 60px;
+        margin: 0px 12px;
+        display: block;
+    }
+    .max_width_appear {
+        display: block;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    #short {
+        position: fixed;
+        width: 135px;
+        top: 100px;
+        right: 40px;
+    }
+    .scroll-list {
+        overflow:scroll;
+        white-space:nowrap;
+        display: flex;
+    }
+    #memo {
+        width: 100%;
+        overflow:visible;
+        white-space:nowrap;
+        height: 650px;
+        -ms-overflow-style: none;
+        /* 인터넷 익스플로러 */
+        scrollbar-width: none;
+        margin: 0px auto;
+        /* 파이어폭스 */
+    }
+
+    .profile_memo {
+        height: 100px;
+        text-align: center;
+        width: 60px;
+        margin: 0px 12px;
+        display: block;
+    }
+    .max_width_appear {
+        display: none;
+    }
+}
