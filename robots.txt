@@ -1,0 +1,4 @@
+User-agent: *Allow:/
+Sitemap : https://stuzm.com/sitemap.xml
+Disallow: /admin_new/
+Disallow: /auth/

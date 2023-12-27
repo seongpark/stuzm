@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&family=Roboto:wght@300&display=swap');
+
+#profile {
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+#profile>#top {
+    display: inline-flex;
+}
+
+#name {
+    margin: auto;
+}
+
+#level {
+    background-color: rgb(223 236 252);
+    padding: 1px 9px;
+    border-radius: 7px;
+    color: rgb(63 141 223);
+    height: 25px;
+    margin: auto 0px auto 10px;
+}
+
+
+#level_admin {
+    background-color: #FA5858;
+    padding: 1px 9px;
+    border-radius: 7px;
+    color: #fff;
+    height: 25px;
+    margin: auto 0px auto 10px;
+}
+
+#header-icon {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+#bell {
+    color: rgb(192 192 192);
+}
+
+#email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#school {
+    padding: 15px 20px;
+    border: 0.1px solid rgb(212, 212, 212);
+    width: 90%;
+    border-radius: 15px;
+    margin: 30px auto;
+    display: flex;
+}
+
+#school>span>#class {
+    color: rgb(192 192 192);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+#school>span>i {
+    font-size: 20px;
+    vertical-align: middle;
+    color: rgb(139, 139, 139);
+}
+
+#school>span+span {
+    margin: auto 0px;
+    width: 50%;
+    text-align: right;
+}
+
+#school>span {
+    margin: auto 0px;
+    width: 50%;
+    text-align: left;
+}
+
+.menus {
+    padding: 19px 20px;
+    cursor: pointer;
+}
+
+a>.menus>i {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #585858 !important;
+}
+
+a>.menus>span {
+    margin-left: 14px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    vertical-align: middle;
+    color: #585858 !important;
+}
+
+.menus:hover {
+    background-color: rgb(243, 243, 243);
+}
+#noti_first_container {
+    margin-top: 68.56px;
+    padding: 0px;
+}
+.noti_div {
+    padding: 15px 20px;
+    border-bottom: 0.5px solid #E4E4E4;
+}
+.noti_title {
+    font-size: 17px;
+    font-weight: 500;
+}
+.noti_discription {
+    font-size: 14px;
+    font-weight: 300;
+    color: #7B7B7B;
+}
+.noti_date {
+    font-size: 12px;
+    font-weight: 300;
+    color: #C3BABA;
+    text-align: right;
+    margin-left: 3px;
+    width: 100%;
+}

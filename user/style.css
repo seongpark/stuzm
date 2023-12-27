@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&family=Roboto:wght@300&display=swap');
+
+#profile {
+    margin: 0px;
+}
+
+#profile>#top {
+    display: flex;
+}
+#user_img > img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin: auto 0px;
+}
+#user_img {
+    vertical-align: middle;
+    margin: auto 0px;
+}
+#user_profile_div {
+    vertical-align: middle;
+    margin: auto 0px auto 8px;
+    display: flex;
+}
+#name {
+    font-size: 30px;
+    margin: auto;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+#level_admin {
+    background-color: #FA5858;
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 2px 9px;
+    border-radius: 7px;
+    color: #fff;
+    margin: auto 0px auto 10px;
+}
+#level {
+    background-color: rgb(223 236 252);
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 3px 9px;
+    border-radius: 7px;
+    color: rgb(63 141 223);
+    margin: auto 0px auto 10px;
+}
+
+.new_to {
+    margin: auto 0px;
+    vertical-align: middle;
+}
+
+.new_to>i {
+    margin: auto 0px;
+    vertical-align: middle;
+}
+
+.new_to>i+span {
+    margin: auto 0px;
+    vertical-align: middle;
+}
+
+.new_from {
+    margin: auto 0px;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 21px;
+}
+
+.new {
+    background-color: #FFE3E3;
+    padding: 3px 5px;
+    font-weight: 300;
+    border-radius: 7px;
+    color: #FF4B4B;
+    height: 15px;
+    font-size: 11px;
+}
+
+#header-icon {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+#bell {
+    color: rgb(192 192 192);
+}
+
+#email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+#school {
+    padding: 15px 20px;
+    font-weight: 300;
+    background-color: #F5F6FA;
+    border-radius: 15px;
+    margin: 30px auto;
+    display: flex;
+    cursor: pointer;
+}
+
+#school>span>#class {
+    color: rgb(192 192 192);
+    font-weight: 300;
+}
+
+#school>span>i {
+    font-size: 20px;
+    vertical-align: middle;
+    color: black;
+}
+
+#school>span+span {
+    margin: auto 0px;
+    width: 50%;
+    text-align: right;
+}
+
+#school>span {
+    margin: auto 0px;
+    width: 50%;
+    text-align: left;
+}
+.center_tag {
+    padding: 10px 20px;
+}
+.menus {
+    padding: 20px 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+a .menus > i {
+    font-size: 20px;
+    margin: auto 0px;
+    vertical-align: middle;
+    color: #585858;
+}
+.menus_icons {
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+}
+
+a .menus > span {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    vertical-align: middle;
+    color: #585858;
+}
+a .menus > span > span + span {
+    vertical-align: middle;
+}
+a .menus > span > img {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.new_a {
+    width: 100%;
+}
+
+.menus:hover {
+    background-color: rgb(243, 243, 243);
+}
+#user_first_container {
+    margin-top: 70px;
+    padding: 0px 21px;
+}
+.block_user {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.block_user_name {
+    margin: auto 0;
+    vertical-align: middle;
+}
+.unblock_btn {
+    margin: auto 0;
+    vertical-align: middle;
+    background-color: #5539FB;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+@media screen and (min-width: 1400px) {
+    #top_arrow {
+        display: none;
+    }
+}
+.user_info_div {
+    margin-top: 20px;
+}
+.user_info_label {
+    margin-top: 20px;
+}
+.input_hide {
+    display: none;
+}
+.exam_select {
+    display: none;
+}
+.exam_appear:checked + div + div {
+    display: block;
+}
+.exam_label {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.exam_select > div {
+    
+    padding: 10px 20px;
+    background-color: #5539FB;
+    color: white;
+}
+.subj_select {
+    display: none;
+}
+.subj_appear:checked + div + div {
+    display: block;
+}
+.subj_label {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.subj_select > div {
+    
+    padding: 10px 20px;
+    background-color: #5539FB;
+    color: white;
+}
