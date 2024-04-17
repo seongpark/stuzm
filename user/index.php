@@ -42,7 +42,7 @@
     src="../profile/img/<?php echo htmlentities($member["profile_image"]); ?>"
     alt="profile_image" /></a>
 <div id="user_profile_div">
-    <a id="profile_a" href="../friend/profile">
+    <a id="profile_a" href="../friend/profile/index.php?idx=<?php echo $member["idx"];?>">
         <div id="name"><?php echo htmlentities($member["name"]); ?></div>
     </a>
 </div>
